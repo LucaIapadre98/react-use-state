@@ -78,7 +78,7 @@ body {
   display: none;
 }
 
-.bottom-list.open a{
+.bottom-list a{
   display: block;
 }
 

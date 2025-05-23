@@ -40,5 +40,7 @@ export default function Main(){
         ));
     };
 
-    return <div className="container-page">{renderItems()}</div>
+    return (
+        <div className="container-page">{renderItems()}</div>
+    )
 }
