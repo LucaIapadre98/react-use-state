@@ -60,7 +60,7 @@ body {
   color: black;
   border: 0px;
 }
-#content-main{
+#content-main {
   border: 2px solid lightgray;
   max-width: 70%;
   display: flex;
@@ -74,7 +74,7 @@ body {
 .container-content p{
   font-size: 28px;
 }
-#content-main{
+#content-mainopen{
   display: none;
 }
 
