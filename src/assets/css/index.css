@@ -52,6 +52,14 @@ body {
   background-color: #4747ff;
   color: white;
 }
+.bottom-list a{
+  cursor: pointer;
+}
+.bottom-list a:hover{
+  background-color: yellow;
+  color: black;
+  border: 0px;
+}
 #content-main{
   border: 2px solid lightgray;
   max-width: 70%;
@@ -60,11 +68,18 @@ body {
   margin-left: 250px;
   padding: .8rem;
 }
-.container-content h1{
-  font-size: 45px;
+.container-title h1{
+  font-size: 40px;
 }
 .container-content p{
-  font-size: 25px;
+  font-size: 28px;
+}
+#content-main{
+  display: none;
+}
+
+.bottom-list.open a{
+  display: block;
 }
 
 
